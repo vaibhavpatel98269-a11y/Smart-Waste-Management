@@ -1,0 +1,51 @@
+# Smart Waste Management
+
+This project is built on Salesforce to manage smart waste collection.
+
+## Features
+- Register waste bins and collection points
+- Track waste levels using sensors
+- Assign collection trucks automatically
+- Generate reports and dashboards in Salesforce
+
+## Tech Stack
+- Salesforce Apex
+- LWC (Lightning Web Components)
+- GitHub + VS Code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Waste Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Smart Waste Management</h1>
+  <p>Welcome to the Salesforce Project Demo.</p>
+  <button id="trackBtn">Track Waste Bin</button>
+  <script src="app.js"></script>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+button {
+  background: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+document.getElementById("trackBtn").addEventListener("click", function () {
+  alert("Tracking Waste Bin... (This is a demo action)");
+});
